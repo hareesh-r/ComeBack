@@ -239,6 +239,16 @@ blockquote{
 }
 
 /*------------------Contact us styling------------------*/
+#clickhere
+{
+    color: white;
+}
+#clickhere a:hover
+{
+    color: blue;
+}
+
+
 #contact h1
 {
     padding-top: 50px;
