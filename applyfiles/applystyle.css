@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#clickhere
+{
+    color: white;
+}
+#clickhere a:hover
+{
+    color: blue;
+}
+
+
+#contact h1
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white!important;
+}
+#contact h1:hover
+{
+    color: orange!important;
+}
+#contact h1::after
+{
+    content: '';
+    background:white;
+    display: block;
+    height: 3px;
+    width: 60%;
+    margin: 20px auto 5px;
+}
+#contact{
+    background:#efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(alumini.jpg);
+}
+.contact-form{
+    padding: 15px;
+}
+input,textarea{
+    width: 100%;
+}
+.form-control{
+    border-radius: 0!important;
+    border: none!important;
+}
+::placeholder{
+    color: lightslategray !important;
+}
+.follow{
+    background: white;
+    padding: 10px;
+    margin: 15px;
+}
+.contact-form .fa
+{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+/*--------------footer--------------------*/
+.cc{
+    padding-top: 10px;
+}
