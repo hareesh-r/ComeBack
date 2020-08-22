@@ -10,8 +10,8 @@
 
     $email_subject = "Application for alumini";
 
-    $email_body = "I am $name.\n". 
-                    "My Register Number is $regno.\n". 
+    $email_body = "I am born with the name $name.\n". 
+                    "During my college days i used to have this RegNo:  $regno.\n". 
                      "Contact me at $phno.\n". 
                       "My GPA $gpa.\n". 
                        " $descri.\n". 
