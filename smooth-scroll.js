@@ -588,20 +588,15 @@
 		 */
 		var init = function () {
 
-			// feature test
 			if (!supports()) throw 'Smooth Scroll: This browser does not support the required JavaScript methods and browser APIs.';
 
-			// Destroy any existing initializations
 			smoothScroll.destroy();
 
-			// Selectors and variables
-			settings = extend(defaults, options || {}); // Merge user options with defaults
-			fixedHeader = settings.header ? document.querySelector(settings.header) : null; // Get the fixed header
+			settings = extend(defaults, options || {});
+			fixedHeader = settings.header ? document.querySelector(settings.header) : null;
 
-			// When a toggle is clicked, run the click handler
 			document.addEventListener('click', clickHandler, false);
 
-			// If updateURL and popState are enabled, listen for pop events
 			if (settings.updateURL && settings.popstate) {
 				window.addEventListener('popstate', popstateHandler, false);
 			}
@@ -609,16 +604,8 @@
 		};
 
 
-		//
-		// Initialize plugin
-		//
 
 		init();
-
-
-		//
-		// Public APIs
-		//
 
 		return smoothScroll;
 
