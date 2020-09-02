@@ -206,13 +206,14 @@
 .hw-to-apply img{
     top: -60px;
     position: absolute;
-    left: calc(35%);
+    left: calc(50% - (60px – 2));
     border: 10px solid #fff;
 }
 .id-card{
     width: 120px;
     height: 120px;
     border-radius: 50%;
+
 }
 .hw-to-apply h3{
     font-size: 20px;
