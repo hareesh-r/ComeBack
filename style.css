@@ -5,7 +5,7 @@
 /*-------------Middle titles--------------------*/
 #midtit-au
 {
-    color: black;
+    color: #567;
 }
 #midtit-au a:hover
 {
@@ -81,6 +81,7 @@
     color: orange;
 }
 /*-------------------About section----------------------*/
+
 #about{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -107,6 +108,9 @@
     margin-bottom: 20px;
 }
 /*---------------Alumini List Styling--------------------*/
+#alumini-list {
+  isolation: isolate; 
+}
 #alumini-list
 {
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(alumini.jpg);
@@ -240,6 +244,9 @@ blockquote{
 }
 
 /*------------------Contact us styling------------------*/
+#contact{
+    isolation: isolate;
+}
 #clickhere
 {
     color: white;
