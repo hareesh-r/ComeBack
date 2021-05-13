@@ -1,9 +1,9 @@
 # ComeBack
 
-## [Come Back an Alumini reunion Website](http://comeback-alums.ml)
+## Visit [Come Back an Alumini reunion Website version 1.0](http://comeback-alums.ml)
 
 ```
-[comeback-alums.ml](https://www.comeback-alums.ml)
+comeback-alums.ml
 comeback-alums-thankyou.ml
 ```
 ### About ComeBack
